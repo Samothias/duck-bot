@@ -1,0 +1,7 @@
+version: '3'
+services:
+  thursday-duck:
+    build: .
+    environment:
+      - TOKEN= ${token}
+    command: npm start
